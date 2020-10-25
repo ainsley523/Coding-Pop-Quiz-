@@ -24,15 +24,23 @@
         <div class="navbar-nav">
         </div>
         </div>
-        <p id="countdown">5:00</p>
-        <script src="script.js"></script>  
+        <p id="countdown">5:00</p>  
     </nav>
-<Quiz>
-    <h1>Coding Quiz Challenge</h1>
-    <h3>Press to Start</h3>
-    <button onclick="beginQuiz()" class="btn btn-info">Click Here</button>
-</Quiz>  
- 
-    
+<div class="container">
+    <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn hide">Next</button>
+    </div>
+</div>
+<script src="script.js"></script>    
 </body>
 </html>
