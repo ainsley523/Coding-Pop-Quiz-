@@ -1,0 +1,26 @@
+body{
+    background-color:#4e7ed8;
+  }
+  
+  div{
+    background-color:#7db9a1;
+    color:#EFD0CA;
+    font-size:20px;
+    text-align:center;
+  }
+Quiz {
+    text-align: center;
+}
+
+button {
+    align-content: center;
+}
+p {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 25px;
+    height: 50px;
+    width: 200px;
+}
